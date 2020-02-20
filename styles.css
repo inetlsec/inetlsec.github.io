@@ -1,0 +1,60 @@
+body {
+	background-color: #151515;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+#here {
+	opacity: 0.6;
+	color: lightgray;
+	
+
+}
+
+#menubox {
+	position: fixed;
+	left: 0; top: 0; bottom: 0;
+	transition-delay: 1s all;
+	transition: 0.6s all;
+	width: 8%;	
+	height: 100%;
+	background-color: black;
+	opacity: 0.2;
+	color: white;
+	font-family: sans-serif;
+	text-indent: -260px;
+	overflow: hidden;
+	text-overflow: clip;
+	white-space: nowrap;
+}
+
+#menubox:hover {
+	opacity: 0.9;
+	width: 30%;
+	text-indent: 10px;
+}
+
+#menutitle {
+	position: inherit;
+	font-size: 32px;
+	text-indent: 4px;
+}
+#full {
+	left: 100;
+	font-size: 32px;
+	opacity: 0.5;
+}
+	
+.menutext{
+	position: inherit;
+}
+
+#fish_main {
+	position: absolute;
+	white-space: pre-line;
+	left: 10%; top: 100; right: 100;
+}
